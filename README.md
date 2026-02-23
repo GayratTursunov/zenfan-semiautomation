@@ -152,10 +152,10 @@ Check whether Linux sees fan PWM control points:
 ls /sys/class/hwmon/*/pwm*
 ```
 
-> gayrat@ldme-ux31:~$ `ls /sys/class/hwmon/*/pwm*`  
+> gayrat@ldme-ux31:\~$ ls /sys/class/hwmon/*/pwm*  
 >  `/sys/class/hwmon/hwmon4/pwm1`  
 >  `/sys/class/hwmon/hwmon4/pwm1_enable`  
->  gayrat@ldme-ux31:~$
+>  gayrat@ldme-ux31:\~$
 
 System does expose a controllable PWM channel:
 
